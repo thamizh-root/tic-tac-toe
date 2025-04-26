@@ -3,15 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import WidthAlgorithm from './WidthAlgorithm';
 import HeightAlgorithm from './HeightAlgorithm/HeightAlgorithm';
+import Game from './Game/Game';
 import Trail from './Trail';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <WidthAlgorithm />
+    {/* <WidthAlgorithm /> */}
     {/* <HeightAlgorithm /> */}
     {/* <Trail /> */}
+    <Game />
   </React.StrictMode>
 );
 
