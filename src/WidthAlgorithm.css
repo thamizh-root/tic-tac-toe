@@ -1,0 +1,23 @@
+.maxContent {
+  width: max-content;
+  background-color: mediumspringgreen;
+}
+
+.minContent {
+  width: min-content;
+  background-color: fuchsia;
+}
+
+.fitContent{
+  width: fit-content;
+  background-color: rgb(165, 161, 209);
+}
+
+.minMaxWidth{
+  width: 80%;
+  min-width: 400px;
+  max-width: 800px;
+  background-color: hsl(120deg, 50%, 50%);
+}
+
+
