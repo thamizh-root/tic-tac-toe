@@ -25,3 +25,17 @@ export default function WidthAlgorithm() {
   );
 }
 
+
+
+
+//
+//  Width Algorithm:
+
+// 1. Measurements (100%, 200px, 5rem)
+// 2. Keywords (auto, fit-content)
+
+// we aren't sizing based on the space made available by the parent, we're sizing based on the element's children!
+
+// This value is known as an intrinsic value, while measurements and the auto keyword are extrinsic. The distinction is based on whether we're focusing on the element itself, or the space made available by the element's parent.
+
+
