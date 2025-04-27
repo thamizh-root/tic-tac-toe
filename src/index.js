@@ -12,8 +12,8 @@ root.render(
   <React.StrictMode>
     {/* <WidthAlgorithm /> */}
     {/* <HeightAlgorithm /> */}
-    {/* <Trail /> */}
-    <Game />
+    <Trail />
+    {/* <Game /> */}
   </React.StrictMode>
 );
 

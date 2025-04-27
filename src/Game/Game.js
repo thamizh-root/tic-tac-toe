@@ -1,5 +1,23 @@
 import { useState } from 'react';
 
+
+
+
+
+
+
+
+//*****
+// 
+// 1. create a board
+// 2. create an array and pass that as props
+// 3. use above to show it in the board
+// 4. if user clicks on it, find the nextSquare
+// 
+// 
+// 
+// **//
+
 function Square({ value, onSquareClick }) {
   return (
     <button className="square" onClick={onSquareClick}>
