@@ -21,6 +21,7 @@ export default function WidthAlgorithm() {
         This heading has a flexible width (80%) but stays between 400px and 800px.
       </h1>
 
+
     </>
   );
 }
