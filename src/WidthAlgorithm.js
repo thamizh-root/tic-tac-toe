@@ -32,11 +32,11 @@ export default function WidthAlgorithm() {
 //
 //  Width Algorithm:
 
-// 1. Measurements (100%, 200px, 5rem)
-// 2. Keywords (auto, fit-content)
+// Width respects the parent’s container size, while
+// Height respects its own content size
 
-// we aren't sizing based on the space made available by the parent, we're sizing based on the element's children!
-
-// This value is known as an intrinsic value, while measurements and the auto keyword are extrinsic. The distinction is based on whether we're focusing on the element itself, or the space made available by the element's parent.
+// The height and width algorithms act similarly in that both use min-, max-, and the base value to clamp and constrain the computed size. 
+// The crucial difference is how each element calculates its natural size: width stretches to fill its container by default, 
+// whereas height only grows as large as its content requires unless explicitly set. 
 
 

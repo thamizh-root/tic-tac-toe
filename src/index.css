@@ -7,9 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* html, body {
-  height: 100%; // height algorithm
-} */
+html, body, #root {
+   height: 100%; /* height algorithm */
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
