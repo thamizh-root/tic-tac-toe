@@ -8,13 +8,15 @@ import Game from './Game/Game';
 import SandboxPlayground from './SandboxPlayground';
 import Trail from './Trail';
 import PercentageIsBetter from './PercentageIsBetter';
+import FlexboxPlayground from './FlexboxPlayground/FlexboxPlayground';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <FlexboxPlayground />
     {/* <WidthAlgorithm /> */}
-    <PercentageIsBetter />
+    {/* <PercentageIsBetter /> */}
     {/* <MarginCollapse /> */}
     {/* <HeightAlgorithm /> */}
     {/* <SandboxPlayground /> */}
