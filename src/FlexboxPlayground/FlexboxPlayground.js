@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import "./FlexboxPlaygrounds.css";
 
 // https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
@@ -28,7 +28,7 @@ export default function FlexboxPlayground() {
     <div className="page">
       <div className="container">
       {/* Flexbox Container */}
-      <motion.div
+      {/* <motion.div
         className="flexbox-container"
         style={{
           display: "flex",
@@ -48,7 +48,7 @@ export default function FlexboxPlayground() {
             }}
           />
         ))}
-      </motion.div>
+      </motion.div> */}
 
       {/* Controls */}
       <div className="controls">

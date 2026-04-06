@@ -10,11 +10,12 @@ import Trail from './Trail';
 import PercentageIsBetter from './PercentageIsBetter';
 import FlexboxPlayground from './FlexboxPlayground/FlexboxPlayground';
 import reportWebVitals from './reportWebVitals';
+import ManageYourMoney from './ManageYourMoney/ManageYourMoney';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <FlexboxPlayground />
+    {/* <FlexboxPlayground /> */}
     {/* <WidthAlgorithm /> */}
     {/* <PercentageIsBetter /> */}
     {/* <MarginCollapse /> */}
@@ -22,6 +23,7 @@ root.render(
     {/* <SandboxPlayground /> */}
     {/* <Trail /> */}
     {/* <Game /> */}
+    <ManageYourMoney />
   </React.StrictMode>
 );
 
